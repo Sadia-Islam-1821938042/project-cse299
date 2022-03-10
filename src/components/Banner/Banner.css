@@ -1,0 +1,26 @@
+h5{
+    font-weight: 300;
+}
+
+.carousel-caption{
+    margin-bottom: 100px;
+}
+
+.book-now-btn{
+    height: 50px;
+    width: 120px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.book-now-btn:hover{
+    transform: scale(1.03);
+    background-color: white;
+    color: green;
+    border-radius: 50px;
+    box-shadow: 1px 1px 15px black;
+}
+
