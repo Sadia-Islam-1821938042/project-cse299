@@ -7,14 +7,21 @@ import {
 } from "react-router-dom";
 
 import Home from './components/Home/Home';
+import AllPackages from './components/AllPackages/AllPackages';
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/">
+        
+      <Route path="/home">
           <Home></Home>
         </Route>
+
+        <Route path="/all-packages">
+          <AllPackages></AllPackages>
+        </Route>
+
       </Switch>
     </Router>
   );
