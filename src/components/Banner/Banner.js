@@ -22,7 +22,7 @@ const Banner = () => {
                                 <h3>Cox's Bazar | 3 days and 3 nights (26.03.2022)</h3>
                                 <h5 style={{ textAlign: "left" }}>
                                     <ul>
-                                        <li>3 days, 3 nights</li>
+                                        <li>5 days, 6 nights</li>
                                         <li>Dinner and Breakfast included</li>
                                         <li>Transportation</li>
                                         <li>Tour guide</li>
