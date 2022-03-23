@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Packages = () => {
+const AllPackagesCards = () => {
     return (
         <div>
             <div>
@@ -48,4 +48,4 @@ const Packages = () => {
     );
 };
 
-export default Packages;
+export default AllPackagesCards;

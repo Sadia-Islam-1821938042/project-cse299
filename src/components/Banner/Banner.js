@@ -15,7 +15,7 @@ const Banner = () => {
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://i.ibb.co/yFx2Kzq/Discover-sajek-valley.jpg" class="d-block w-100" alt="..." height="566px" />
+                    <img src="https://i.ibb.co/NpDcBF3/shada.jpg" class="d-block w-100" height="566px" alt="..." />
                         <div class="carousel-caption" style={{ backgroundColor: "rgba(0, 0, 0, 0.55)", display: "flex", flexDirection: "row" }}>
                             <img className="p-4" src="https://i.ibb.co/yFx2Kzq/Discover-sajek-valley.jpg" alt="" style={{ height: "160px", width: "240px" }} />
                             <div className='p-4' style={{ textAlign: "left" }}>
@@ -35,7 +35,8 @@ const Banner = () => {
                                             <i className="fas fa-star"></i>
                                             <i className="fas fa-star"></i>
                                             <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
+                                            
+                                            <i class="fas fa-star-half-alt"></i>
                                             <i class="fas fa-star-half-alt"></i>
                                             <span style={{ marginLeft: "20px", fontSize: "34px" }}>4.5</span>/5.00
                                         </span>

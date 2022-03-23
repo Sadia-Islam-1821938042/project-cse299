@@ -1,4 +1,5 @@
 import React from 'react';
+import AllPackages from '../AllPackages/AllPackages';
 import Banner from '../Banner/Banner';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
@@ -10,7 +11,7 @@ const Home = () => {
             <Header></Header>
             <Banner></Banner>
             <Packages></Packages>
-            <Footer></Footer> 
+            <Footer></Footer>
         </div>
     );
 };
