@@ -13,16 +13,4 @@ const AllPackages = () => {
 
 export default AllPackages;
 
-// const x = 5;
-// const y = 6;
-
-// const Sum = (x, y) => {
-//     const sum = x+y;
-//     const dif = x-y;
-//     return {
-//         sum,
-//         dif
-//     };
-// }
-
 

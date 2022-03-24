@@ -14,12 +14,18 @@ function App() {
     <Router>
       <Switch>
         
-      <Route path="/home">
+      
+
+        <Route path="/home">
           <Home></Home>
         </Route>
 
         <Route path="/all-packages">
           <AllPackages></AllPackages>
+        </Route>
+
+        <Route path="/">
+          <Home></Home>
         </Route>
 
       </Switch>
