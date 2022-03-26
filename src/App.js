@@ -8,13 +8,12 @@ import {
 
 import Home from './components/Home/Home';
 import AllPackages from './components/AllPackages/AllPackages';
+import Reviews from './components/Reviews/Reviews';
 
 function App() {
   return (
     <Router>
       <Switch>
-        
-      
 
         <Route path="/home">
           <Home></Home>
@@ -22,6 +21,10 @@ function App() {
 
         <Route path="/all-packages">
           <AllPackages></AllPackages>
+        </Route>
+
+        <Route path="/reviews">
+          <Reviews></Reviews>
         </Route>
 
         <Route path="/">
