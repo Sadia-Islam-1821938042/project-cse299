@@ -11,8 +11,19 @@ const AllPackagesCards = () => {
                     <div class="card h-100">
                         <img src="https://i.ibb.co/yFx2Kzq/Discover-sajek-valley.jpg" class="card-img-top" alt="..." />
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <h5 class="card-title">Shajek Valley</h5>
+                            <p class="card-text">
+                                <ul>
+                                    <li>3 days, 4 nights</li>
+                                    <li>Dinner and breakfast included</li>
+                                    <li>Transportation Not available</li>
+                                    <li>BBQ party</li>
+                                    <li>Tour Guide available</li>
+                                </ul>
+                                <h5 className='text-primary
+
+'>Cost: 5500/-</h5>
+                            </p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">Last updated 3 mins ago</small>
