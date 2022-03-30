@@ -22,7 +22,7 @@ const AllPackagesCards = () => {
                                 </ul>
                                 <h5 className='text-primary
 
-'>Cost: 5500/-</h5>
+'>Cost: 6000/-</h5>
                             </p>
                         </div>
                         <div class="card-footer">
@@ -34,8 +34,20 @@ const AllPackagesCards = () => {
                     <div class="card h-100">
                         <img src="https://i.ibb.co/NpDcBF3/shada.jpg" class="card-img-top" alt="..." />
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <h5 class="card-title"> BICHANAKANDI OF SYLHET</h5>
+                            <p class="card-text"> 
+                            <ul>
+                                    <li>4 days, 5 nights</li>
+                                    <li>Dinner and breakfast included</li>
+                                    <li>Transportation Not available</li>
+                                     <li>Tour Guide available</li>
+                                    <li>Boat</li>
+                                </ul>
+                                <h5 className='text-primary
+
+'>Cost: 6500/-</h5>
+                    </p>  
+                                
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">Last updated 3 mins ago</small>
@@ -46,8 +58,19 @@ const AllPackagesCards = () => {
                     <div class="card h-100">
                         <img src="https://i.ibb.co/3NCGNf2/163-gallary-7jpg.jpg" class="card-img-top" alt="..." />
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <h5 class="card-title">Bandarban</h5>
+                            <p class="card-text">
+                            <ul>
+                                    <li>3 days, 2 nights</li>
+                                    <li>Breakfast, Lunch, Dinner included</li>
+                                    <li>Transportation available</li>
+                                     <li>Tour Guide available</li>
+                                    <li>BBQ and pizza party </li>
+                                </ul>
+                                <h5 className='text-primary
+
+'>Cost: 5500/-</h5>
+                    </p> 
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">Last updated 3 mins ago</small>

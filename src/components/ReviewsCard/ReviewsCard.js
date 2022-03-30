@@ -14,7 +14,7 @@ const ReviewsCard = () => {
               <div className='d-flex justify-content-center align-items-center golden-color'>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
                 <i class="fas fa-star-half-alt"></i>
                 <i class="far fa-star"></i>
               </div>
