@@ -18,7 +18,7 @@ const ReviewsCard = () => {
                 <i class="fas fa-star-half-alt"></i>
                 <i class="far fa-star"></i>
               </div>
-              <p class="card-text m-4 justified-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quibusdam doloremque, blanditiis quidem facere consequatur a sint necessitatibus ratione veritatis expedita libero odit non minima cumque cum quae, laborum quos architecto praesentium. Iusto velit provident quas delectus non, cumque dolore.</p>
+              <p class="card-text m-4 justified-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi mollitia molestiae modi. Ab nulla odio atque, iusto quasi molestiae ipsam, possimus dicta quos nisi accusantium. Soluta quis cumque exercitationem excepturi repudiandae! Laboriosam exercitationem dolor qui inventore nesciunt, rem dolorem nobis.</p>
             </div>
           </div>
         </div>
