@@ -9,6 +9,7 @@ import {
 import Home from './components/Home/Home';
 import AllPackages from './components/AllPackages/AllPackages';
 import Reviews from './components/Reviews/Reviews';
+import ComingSoon from './components/ComingSoon/ComingSoon';
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
 
         <Route path="/reviews">
           <Reviews></Reviews>
+        </Route>
+
+        <Route path="/coming-soon">
+          <ComingSoon></ComingSoon>
         </Route>
 
         <Route path="/">
