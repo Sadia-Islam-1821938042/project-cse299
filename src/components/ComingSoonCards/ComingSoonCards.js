@@ -1,4 +1,5 @@
 import React from 'react';
+import "./ComingSoonCards.css";
 
 const ComingSoonCards = () => {
     return (
@@ -57,6 +58,7 @@ const ComingSoonCards = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
 
         </div>
