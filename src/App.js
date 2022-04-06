@@ -9,7 +9,6 @@ import {
 import Home from './components/Home/Home';
 import AllPackages from './components/AllPackages/AllPackages';
 import Reviews from './components/Reviews/Reviews';
-import Login from './components/Login/Login';
 
 function App() {
   return (
@@ -26,10 +25,6 @@ function App() {
 
         <Route path="/reviews">
           <Reviews></Reviews>
-        </Route>
-
-        <Route path="/login">
-          <Login></Login>
         </Route>
 
         <Route path="/">
