@@ -8,7 +8,6 @@ import Packages from '../Packages/Packages';
 const Home = () => {
     return (
         <div>
-            <Header></Header>
             <Banner></Banner>
             <Packages></Packages>
             <Footer></Footer>

@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { Link, useLocation, useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
-import './Login.css';
+import './Register.css';
 
-const Login = () => {
-    const { user, logOut, signInUsingGoogle } = useAuth();
+const Register = () => {
+    const { user, signInUsingGoogle } = useAuth();
     return (
-        <form className="login-form p-4 mb-5">
-            <h2 style={{ color: "#087979" }} className="my-4 text-center">Please Login</h2>
+        <form className="register-form p-4">
+            <h2 className="my-4 text-center text-success">Create an account</h2>
             <div>
                 <div className="row mb-3">
                     <div className="col-sm-12">
@@ -22,9 +22,9 @@ const Login = () => {
                 <div className="row mb-3">
                     <div className="col-sm-12">
                         <div className="form-check">
-                            <div className="me-3 text-center">
-                                <Link to="/register">
-                                    Create an account
+                            <div className="text-center me-3">
+                                <Link to="/login">
+                                    Already a user?
                                 </Link>
                             </div>
                             <div>
@@ -35,11 +35,11 @@ const Login = () => {
                         </div>
                     </div>
                 </div>
-                <button type="submit" style={{ backgroundColor: "#087979", marginLeft: "30%" }} className="btn d-block text-white">Sign in</button>
+                <button type="submit" style={{ marginLeft: "30%" }} className="btn d-block btn-success">Register</button>
                 <button onClick={signInUsingGoogle} style={{ marginLeft: "30%" }} className="btn d-block btn-primary"> <span className="me-2"><i className="fab fa-google"></i></span> Google Sign In</button>
             </div>
         </form>
     );
 };
 
-export default Login;
+export default Register;

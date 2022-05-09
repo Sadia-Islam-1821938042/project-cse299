@@ -6,8 +6,6 @@ import "./ComingSoon.css";
 const ComingSoon = () => {
     return (
         <div>
-            <Header></Header>
-
             <ComingSoonCards></ComingSoonCards>
         </div>
     );

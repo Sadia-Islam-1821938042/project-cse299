@@ -1,4 +1,4 @@
-.login-form {
+.register-form {
     margin-left: 25%;
     margin-right: 25%;
     box-shadow: 5px 5px 40px gray;
@@ -7,7 +7,7 @@
     transition: 0.3s;
 }
 
-.login-form button {
+.register-form button {
     width: 40%;
     padding: 10px;
     margin: 10px;
@@ -15,14 +15,14 @@
 
 /* responsive */
 @media only screen and (max-width: 688px) {
-    .login-form {
+    .register-form {
         margin-left: 5%;
         margin-right: 5%;
     }
 }
 
 @media only screen and (min-width:689px) and (max-width: 991px) {
-    .login-form {
+    .register-form {
         margin-left: 15%;
         margin-right: 15%;
     }

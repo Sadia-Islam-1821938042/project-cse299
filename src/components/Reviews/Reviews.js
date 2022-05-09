@@ -6,7 +6,6 @@ import "./Reviews.css";
 const Reviews = () => {
     return (
         <div>
-            <Header></Header>
             <ReviewsCard></ReviewsCard>
         </div>
     );

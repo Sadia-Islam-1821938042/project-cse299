@@ -1,14 +1,21 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
-.nav-option{
+
+.nav-option {
     border-bottom: 2px solid rgba(255, 255, 255, 0);
     transition: 0.3s;
     font-size: 18px;
 }
-.nav-option:hover{
+
+.nav-option:hover {
     border-bottom: 2px solid green;
 }
-.nav-option:focus{
+
+.nav-option:focus {
     border-bottom: 2px solid green;
+}
+
+.nav-bar {
+    background-color: white;
 }
